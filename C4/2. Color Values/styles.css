@@ -1,6 +1,6 @@
 /*
-Author: Maria Cruz
-Date: Current Date
+Author: Evan Shemanskis
+Date: 10/21/2023
 File Name: styles.css
 */
 
@@ -58,9 +58,39 @@ main a {
 }
 
 /* Orange */
+.orange-hex {
+    background-color: #ff9900;
+}
 
+.orange-rgb {
+    background-color: rgb(255, 153, 0);
+}
+
+.orange-hsl {
+    background-color: hsl(36, 100%, 50%);
+}
 
 /* Purple */
+.purple-hex {
+    background-color: #9966ff;
+}
 
+.purple-rgb {
+    background-color: rgb(153, 102, 255);
+}
+
+.purple-hsl {
+    background-color: hsl(260, 100%, 70%);
+}
 
 /* Green */
+.green-hex {
+    background-color: #33cc33;
+}
+
+.green-rgb {
+    background-color: rgb(51, 204, 51);
+}
+.green-hsl {
+    background-color: hsl(120, 60%, 50%);
+}
