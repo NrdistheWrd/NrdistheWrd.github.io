@@ -34,7 +34,11 @@ nav {
 }
 
 nav ul {
+<<<<<<< HEAD
     list-style-type: none;
+=======
+    list-style: none;
+>>>>>>> b10827c826fa72bf6c7dce9bd3aef2046e99e629
     margin: 0;
     text-align: center;
 }
