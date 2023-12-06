@@ -120,13 +120,14 @@ blockquote {
 
 
 blockquote small {
-    text-align: righ    t;
+    font-style: italic;
+    text-align: right;
 }
 
 footer {
     background-color: #c98226;
     color: white;
-    padding: 2%, 0;
+    padding: 2% 0;
     margin-top: 10px;
 }
 
@@ -151,3 +152,107 @@ footer ul {
 footer p {
     clear: both;
 }
+
+
+/* Media Queries */
+
+@media (max-width: 810px) {
+
+    html {
+        line-height: 125%;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    img {
+        max-width: 35%;
+        display: inline;
+        position: relative;
+        top: 16px;
+    }
+    
+    footer {
+        padding-right: 5%;
+    }
+
+    footer p {
+        line-height: 100%;
+        font-size: .85em;
+        padding-left: 5%;
+    }
+    
+}
+
+@media (max-width: 360px) {
+
+    html {
+        line-height: 175%;
+    }
+
+    nav a {
+        padding: 5px;
+        letter-spacing: normal;
+        font-size: .9rem;
+    }
+
+    nav ul {
+        padding-left: 0px
+    }
+
+    main {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        text-shadow: none;
+        margin-bottom: -10px
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+     
+    img {
+        float: none;
+        max-width: 90%;
+        margin-left: 5%;
+    }
+
+    .details,
+    .ingredients,
+    .instructions,
+    .nutrition {
+        width: 90%;
+        float: none;
+}
+
+    blockquote {
+        clear: both;
+        width: 300px;
+        height: 280px;
+        padding: 75px 16px 0 15px;
+        border-radius: 50%;
+        background-color: #f3b96c;
+        outline: dotted 6px #c98226;
+        outline-offset: 10px;
+        font-family: 'Libre Baskerville', serif;
+        text-align: center;
+        font-size: .9rem;
+        margin: 40px auto;
+        
+    }
+
+    .col1, .col2, .col3 {
+        display: block;
+        float: none;
+        width: 90%;
+        text-align: center;
+    }
+}
+
+    footer p {
+        font-size: 0.75rem;
+    }
