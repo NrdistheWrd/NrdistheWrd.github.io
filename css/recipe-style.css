@@ -227,7 +227,7 @@ footer p {
     .nutrition {
         width: 90%;
         float: none;
-}
+    }
 
     blockquote {
         clear: both;
@@ -249,10 +249,10 @@ footer p {
         display: block;
         float: none;
         width: 90%;
-        text-align: center;
+        text-align: center;  
     }
-}
-
+    
     footer p {
         font-size: 0.75rem;
     }
+}
